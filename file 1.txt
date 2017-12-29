@@ -1,0 +1,17 @@
+1.default scope attribute value in <jsp:useBean> action tagg is PAGE.
+2.attribute in <jsp:useBean> action tags are {session , page , application , request}
+3.There are three types of jsp tags
+	i).  Scriptlet <% java source code %>
+		a. you can delare variable only in it
+		b. declaration is placed inside _jspService()
+	ii). expression <%=  statement %>
+	iii).declaration <%! variable or method %>
+		a. declaration is placed outside the _jspService().
+		b. used to declare fields and methods.
+4. jsp directives 
+	i). page <% @ page directive = "value" %>
+	ii).include <% @ include file = " fileName.html "%>
+	iii).taglib <% @ taglib uri = " url " prefix = " " %>
+5. Attribute of page directive
+	refer this: https://www.tutorialspoint.com/jsp/page_directive.htm
+6. 
